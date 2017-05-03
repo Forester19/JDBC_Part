@@ -14,7 +14,7 @@ public class ConsoleHelperProjectsPart {
     private int select_id;
     private Scanner scanner = new Scanner(System.in);
 
-    public void doEveryThinkWithProjectPart() {
+    public void doEverythingWithProjectPart() {
         System.out.println("Select what you wanna do with projects part:\n" +
                 "1 - show all projects\n" +
                 "2 - add new project\n");

@@ -1,16 +1,16 @@
 package controller;
 
 import view.ConsoleHelper;
-import view.ConsoleHelperCompaniesPArt;
 
 /**
  * Created by Владислав on 28.04.2017.
  */
 public class ConsoleWorkerMain {
-    ConsoleHelper consoleHelper = new ConsoleHelper();
-    ConsoleWorkerDevelopersPart consoleWorkerDevelopersPart = new ConsoleWorkerDevelopersPart();
-    ConsoleWorkerProjectsPart consoleWorkerProjectsPart = new ConsoleWorkerProjectsPart();
-    ConsoleWorkerCompaniesPart consoleHelperComp = new ConsoleWorkerCompaniesPart();
+    private ConsoleHelper consoleHelper = new ConsoleHelper();
+    private ConsoleWorkerDevelopersPart consoleWorkerDevelopersPart = new ConsoleWorkerDevelopersPart();
+    private ConsoleWorkerProjectsPart consoleWorkerProjectsPart = new ConsoleWorkerProjectsPart();
+    private ConsoleWorkerCompaniesPart consoleHelperComp = new ConsoleWorkerCompaniesPart();
+    private ConsoleWorkerSkillsPart skillsPart = new ConsoleWorkerSkillsPart();
     public void dointEverythink(){
         consoleHelper.showPosibl();
         int id = consoleHelper.getSelectedId();
@@ -19,9 +19,10 @@ public class ConsoleWorkerMain {
                 consoleWorkerDevelopersPart.devPartDoing();
                 break;
             case 2:
-                consoleWorkerProjectsPart.projPertDeoing();
+                consoleWorkerProjectsPart.projPartDoing();
                 break;
             case 3:
+                skillsPart.skillPartDoing();
                 break;
             case 4:
                 consoleHelperComp.comPartOfDoing();

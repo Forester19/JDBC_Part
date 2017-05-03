@@ -27,4 +27,12 @@ public abstract class BaseModel {
     public void setName_description(String name_description) {
         this.name_description = name_description;
     }
+
+    @Override
+    public String toString() {
+        return "BaseModel{" +
+                "id=" + id +
+                ", name_description='" + name_description + '\'' +
+                '}';
+    }
 }

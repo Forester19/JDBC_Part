@@ -11,8 +11,8 @@ public class ConsoleWorkerProjectsPart {
     ConsoleHelperProjectsPart consoleHelperProjectsPart = new ConsoleHelperProjectsPart();
     ProjectsDao projectsDao = new ProjectsDao();
 
-    public void projPertDeoing(){
-        consoleHelperProjectsPart.doEveryThinkWithProjectPart();
+    public void projPartDoing(){
+        consoleHelperProjectsPart.doEverythingWithProjectPart();
         int id =  consoleHelperProjectsPart.getSelect_id();
         switch (id){
             case 1:
