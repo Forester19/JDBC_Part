@@ -11,6 +11,7 @@ public class ConsoleWorkerMain {
     private ConsoleWorkerProjectsPart consoleWorkerProjectsPart = new ConsoleWorkerProjectsPart();
     private ConsoleWorkerCompaniesPart consoleHelperComp = new ConsoleWorkerCompaniesPart();
     private ConsoleWorkerSkillsPart skillsPart = new ConsoleWorkerSkillsPart();
+    private ConsoleWorkerCustomersPart consoleWorkerCustomersPart = new ConsoleWorkerCustomersPart();
     public void dointEverythink(){
         consoleHelper.showPosibl();
         int id = consoleHelper.getSelectedId();
@@ -26,6 +27,9 @@ public class ConsoleWorkerMain {
                 break;
             case 4:
                 consoleHelperComp.comPartOfDoing();
+                break;
+            case 5:
+                consoleWorkerCustomersPart.cusPartOFDoing();
                 break;
         }
     }

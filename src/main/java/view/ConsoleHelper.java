@@ -14,7 +14,8 @@ public class ConsoleHelper {
         "1 - part of developers\n"  +
         "2 - part of projects\n" +
         "3 - part of skills\n" +
-        "4 - part of companies\n");
+        "4 - part of companies\n"+
+        "5 - part of customers \n");
         selectedId = scanner.nextInt();
     }
 
